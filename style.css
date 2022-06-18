@@ -12,11 +12,15 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 52px;
+}
+
 .poke_container {
     display: flex;
     flex-wrap: wrap;
-    align-items: space-between;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -28,7 +32,7 @@ body {
     text-align: center;
     margin: 10px;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
-    min-width: 22%;
+    min-width: 23%;
 }
 
 .pokemon .img-container {
@@ -58,4 +62,16 @@ body {
 
 .pokemon .name {
     margin: 7px 0 7px 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .pokemon {
+        min-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .pokemon {
+        min-width: 35%;
+    }
 }
