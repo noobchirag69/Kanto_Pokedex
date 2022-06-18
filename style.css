@@ -19,8 +19,7 @@ h1 {
 .poke_container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -64,14 +63,11 @@ h1 {
     margin: 7px 0 7px 0;
 }
 
-@media only screen and (max-width: 500px) {
-    .pokemon {
-        min-width: 60%;
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
     }
-}
-
-@media only screen and (max-width: 800px) {
     .pokemon {
-        min-width: 35%;
+        width: 60%;
     }
 }
