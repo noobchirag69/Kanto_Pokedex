@@ -33,6 +33,7 @@ body {
 
 .pokemon .img-container {
     background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     border-radius: 50%;
     max-width: 90%;
     width: 120px;
@@ -50,12 +51,11 @@ body {
 }
 
 .pokemon .number {
-    background-color: #fff;
     border-radius: 10px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 5px 10px;
 }
 
 .pokemon .name {
-    margin: 15px 0 7px;
+    margin: 7px 0 7px 0;
 }
