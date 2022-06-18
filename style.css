@@ -24,7 +24,7 @@ body {
 .pokemon {
     background-color: #eee;
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
     margin: 10px;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
