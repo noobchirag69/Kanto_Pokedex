@@ -44,6 +44,9 @@ function createPokemonCard(pokemon) {
     const final_type = type[0].toUpperCase() + type.slice(1);
     const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
 
+    const color = colors[type];
+    pokemonEl.style.backgroundColor = color;
+
     const pokeInnerHTML = `
         <div class="img-container">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png">
