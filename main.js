@@ -49,7 +49,7 @@ function createPokemonCard(pokemon) {
 
     const pokeInnerHTML = `
         <div class="img-container">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png">
         </div>
         <div class="info">
             <span class="number">#${pokemon.id.toString().padStart(3, '0')}</span>
